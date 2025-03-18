@@ -5,14 +5,14 @@ class Tamagochi
     public byte felicidad;
     public State estado;
 
-    public virtual Comer()
+    public virtual void Comer()
     {}
-    public virtual Jugar()
+    public virtual void Jugar()
     {}
     public virtual bool PuedeJugar()
     {}
 
-    public CambiarState()
+    public void CambiarState()
     {}
 
     public bool EstasFeliz()
