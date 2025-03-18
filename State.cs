@@ -4,9 +4,10 @@ namespace State;
 abstract class State: Tamagochi 
 {
     private string nombre;
+
     public override void State()
     {}
-    public override void Comer()
+    public override void Comer(Tamagochi)
     {}
     public override void juegue()
     {}
