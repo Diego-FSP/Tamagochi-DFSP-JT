@@ -18,6 +18,7 @@ class Tamagochi
     }
 
     public bool EstasFeliz()
+    {
         bool feliz=true;
         if(felicidad<5)
         feliz=false;
