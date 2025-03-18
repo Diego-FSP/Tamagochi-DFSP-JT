@@ -2,7 +2,7 @@ namespace Mascota;
 
 class Tamagochi
 {
-    public byte felicidad;
+    public byte felicidad=0;
     public State estado;
 
     public virtual void Comer()
