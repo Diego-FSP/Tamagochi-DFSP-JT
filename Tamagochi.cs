@@ -12,9 +12,15 @@ class Tamagochi
     public virtual bool PuedeJugar()
     {}
 
-    public void CambiarState()
-    {}
+    public void CambiarState(State nestado)
+    {
+        estado=nestado;
+    }
 
     public bool EstasFeliz()
-    {}
+        bool feliz=true;
+        if(felicidad<5)
+        feliz=false;
+        return feliz;
+    }
 }
