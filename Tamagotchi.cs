@@ -1,6 +1,6 @@
 namespace Mascota;
 
-class Tamagochi
+class Tamagotchi
 {
     public byte felicidad=0;
     public State estado;
