@@ -1,8 +1,15 @@
+using Mascota;
 namespace State;
 
-class State
+abstract class State: Tamagochi 
 {
-    privado string nombre;
-    public State;
-    
+    private string nombre;
+    public override void State()
+    {}
+    public override void Comer()
+    {}
+    public override void juegue()
+    {}
+    public override bool PuedeJugar()
+    {}
 }
