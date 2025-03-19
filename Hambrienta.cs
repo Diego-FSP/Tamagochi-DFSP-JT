@@ -2,9 +2,9 @@ using State;
 
 class Hambrienta : State
 {
-    public override void Comer()
+    public override void Comer(Tamagotchi mascota)
     {
-        base.CambiarState(Contento contento);
+        mascota.CambiarState(new Contenta);
     }
     public override void juegue()
     {}
