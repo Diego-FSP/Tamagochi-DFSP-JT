@@ -1,14 +1,12 @@
 using Mascota;
 namespace State;
 
-abstract class State: Tamagotchi 
+abstract class State
 {
     private string nombre;
 
-    public override void Comer(Tamagotchi mascota)
+    public virtual void Comer(Tamagotchi mascota)
     {}
-    public override void juegue()
-    {}
-    public override bool PuedeJugar()
+    public virtual void Jugar(Tamagotchi mascota)
     {}
 }

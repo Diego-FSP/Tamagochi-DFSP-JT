@@ -2,19 +2,29 @@ namespace Mascota;
 using State;
 class Tamagotchi
 {
+    Tamagotchi Mascota;
     public byte felicidad=0;
-    public State estado;
+    public State Estado;
 
-    public virtual void Comer()
-    {}
-    public virtual void Jugar()
-    {}
-    public virtual bool PuedeJugar()
-    {}
+    public void Comer()
+    {
+        Estado.Comer(Mascota);
+    }
+    public void Jugar()
+    {
+        Estado.Jugar(Mascota);
+    }
+    public bool PuedeJugar()
+    {
+        bool Si= true;
+        if(felicidad<2)
+        Si=false;
+        return Si;
+    }
 
     public void CambiarState(State nestado)
     {
-        estado=nestado;
+        Estado=nestado;
     }
 
     public bool EstasFeliz()

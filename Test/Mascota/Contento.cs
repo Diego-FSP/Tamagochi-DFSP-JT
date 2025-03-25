@@ -1,14 +1,13 @@
-using State;
-
+namespace State;
 class Contento : State
 {
     byte jugo=0;
-    public override void Comer()
+    public override void Comer(Tamagochi mascota)
     {
         if(base.felicidad<10)
         base.felicidad++;
     }
-    public override void juegue(Tamagochi mascota)
+    public override void Jugar(Tamagochi mascota)
     {
         if(jugo<5)
         {
