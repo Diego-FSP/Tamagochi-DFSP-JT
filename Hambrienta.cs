@@ -6,7 +6,7 @@ class Hambrienta : State
     {
         mascota.CambiarState(new Contenta);
     }
-    public override void juegue()
+    public override void juegue(Tamagochi mascota)
     {}
     public override void PuedeJugar()
     {}
