@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\Test\\Mascota\\Mascota.csproj": {}
+    "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\test\\mascota\\Mascota.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\Test\\Mascota\\Mascota.csproj": {
+    "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\test\\mascota\\Mascota.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\Test\\Mascota\\Mascota.csproj",
+        "projectUniqueName": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\test\\mascota\\Mascota.csproj",
         "projectName": "Mascota",
-        "projectPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\Test\\Mascota\\Mascota.csproj",
+        "projectPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\test\\mascota\\Mascota.csproj",
         "packagesPath": "C:\\Users\\Lab15-PC01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\Test\\Mascota\\obj\\",
+        "outputPath": "C:\\Users\\Lab15-PC01\\Documents\\GitHub\\Tamagochi-DFSP-JT\\test\\mascota\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lab15-PC01\\AppData\\Roaming\\NuGet\\NuGet.Config",

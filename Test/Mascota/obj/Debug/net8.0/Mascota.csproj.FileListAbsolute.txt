@@ -1,0 +1,15 @@
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\bin\Debug\net8.0\Mascota.exe
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\bin\Debug\net8.0\Mascota.deps.json
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\bin\Debug\net8.0\Mascota.runtimeconfig.json
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\bin\Debug\net8.0\Mascota.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\bin\Debug\net8.0\Mascota.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.AssemblyInfoInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.AssemblyInfo.cs
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.csproj.CoreCompileInputs.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.sourcelink.json
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\refint\Mascota.dll
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.pdb
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\Mascota.genruntimeconfig.cache
+C:\Users\Lab15-PC01\Documents\GitHub\Tamagochi-DFSP-JT\Test\Mascota\obj\Debug\net8.0\ref\Mascota.dll
