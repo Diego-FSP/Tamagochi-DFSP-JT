@@ -20,6 +20,6 @@ class Contento : State
             jugo++;
         }
         else
-        mascota.CambiarState(new Hambrienta);
+        mascota.CambiarState(new Hambrienta());
     }
 }

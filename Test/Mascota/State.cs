@@ -3,7 +3,7 @@ namespace State;
 
 abstract class State
 {
-    public required string nombre;
+    public string nombre;
 
     public virtual void Comer(Tamagotchi mascota)
     {}
