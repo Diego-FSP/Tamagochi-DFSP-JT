@@ -1,5 +1,5 @@
-using State;
-
+namespace State;
+using Mascota;
 class Aburrido: State
 {
     DateTime inicio;
@@ -13,11 +13,11 @@ class Aburrido: State
 
     public override bool PuedeJugar()
     {}
-    public override void Comer(Tamagochi mascota)
+    public override void Comer(Tamagotchi mascota)
     {
         Tiempo();
         if(minutosAburrida>umbralComida)
-        mascota.CambiarState(new Contenta());
+        mascota.CambiarState(new Contenta);
     }
     public override void Jugar(Tamagochi mascota)
     {}

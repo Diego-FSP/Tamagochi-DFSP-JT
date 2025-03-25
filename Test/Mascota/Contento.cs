@@ -1,24 +1,25 @@
 namespace State;
+using Mascota;
 class Contento : State
 {
     byte jugo=0;
-    public override void Comer(Tamagochi mascota)
+    public Contento()
     {
-        if(base.felicidad<10)
-        base.felicidad++;
+        base.nombre="Contento";
     }
-    public override void Jugar(Tamagochi mascota)
+    public override void Comer(Tamagotchi mascota)
+    {
+        if(mascota.felicidad<10)
+        mascota.felicidad++;
+    }
+    public override void Jugar(Tamagotchi mascota)
     {
         if(jugo<5)
         {
-            base.felicidad+=2;
+            mascota.felicidad+=2;
             jugo++;
         }
         else
         mascota.CambiarState(new Hambrienta);
-    }
-    public override void PuedeJugar()
-    {
-
     }
 }
