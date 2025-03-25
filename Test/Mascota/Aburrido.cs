@@ -4,7 +4,7 @@ class Aburrido: State
 {
     DateTime inicio;
     int minutosAburrida;
-    int umbralComida=80;
+    int umbralComida=1;
 
     public Aburrido()
     {
@@ -16,15 +16,23 @@ class Aburrido: State
     {
         Tiempo();
         if(minutosAburrida>umbralComida)
-        mascota.CambiarState(new Contento());
+        {
+            if(mascota.felicidad<6)
+            mascota.felicidad=6;
+            mascota.CambiarState(new Contento());
+        }
     }
     public override void Jugar(Tamagotchi mascota)
-    {}
+    {
+        if(mascota.felicidad<6)
+        mascota.felicidad=6;
+        mascota.CambiarState(new Contento());
+    }
 
     private void Tiempo()
     {
         DateTime ahora = DateTime.Now;
-        System.TimeSpan resta = inicio - ahora;
+        System.TimeSpan resta = ahora - inicio;
         minutosAburrida = (resta.Minutes) + (resta.Hours*60) + (resta.Days*1416);
     }
 }

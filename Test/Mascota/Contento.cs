@@ -16,6 +16,7 @@ class Contento : State
     {
         if(jugo<5)
         {
+            if(mascota.felicidad<10)
             mascota.felicidad+=2;
             jugo++;
         }

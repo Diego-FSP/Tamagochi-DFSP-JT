@@ -15,7 +15,10 @@ public class Program
             Console.WriteLine("que quieres hacer");
             Console.WriteLine("1.-Comer");
             Console.WriteLine("2.-Jugar");
+            Console.WriteLine("3.-¿Estas Feliz?");
             rta= byte.Parse(Console.ReadLine());
+            
+                    Console.Clear();
             switch(rta)
             {
                 case 1:
@@ -23,6 +26,18 @@ public class Program
                 break;
                 case 2:
                 mascota.Jugar();
+                break;
+                case 3:
+                bool si = mascota.EstasFeliz();
+                if(si)
+                {
+                    Console.WriteLine("Estoy Feliz");
+                }
+                else
+                {
+                    Console.WriteLine("No, estoy triste");
+                }
+                
                 break;
             }
         }
