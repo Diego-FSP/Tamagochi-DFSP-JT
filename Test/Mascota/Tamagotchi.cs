@@ -2,17 +2,16 @@ namespace Mascota;
 using State;
 class Tamagotchi
 {
-    Tamagotchi Mascota;
     public byte felicidad=0;
     public State Estado;
 
     public void Comer()
     {
-        Estado.Comer(Mascota);
+        Estado.Comer(this);
     }
     public void Jugar()
     {
-        Estado.Jugar(Mascota);
+        Estado.Jugar(this);
     }
     public bool PuedeJugar()
     {
