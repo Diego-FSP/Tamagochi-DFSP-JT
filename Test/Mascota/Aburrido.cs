@@ -3,28 +3,28 @@ using Mascota;
 class Aburrido: State
 {
     DateTime inicio;
-    short minutosAburrida;
-    short umbralComida;
+    int minutosAburrida;
+    int umbralComida=80;
 
     public Aburrido()
     {
-        inicio = DateTime.Now();
+        base.nombre="Aburrido";
+        inicio = DateTime.Now;
     }
 
-    public override bool PuedeJugar()
-    {}
     public override void Comer(Tamagotchi mascota)
     {
         Tiempo();
         if(minutosAburrida>umbralComida)
-        mascota.CambiarState(new Contenta);
+        mascota.CambiarState(new Contento());
     }
-    public override void Jugar(Tamagochi mascota)
+    public override void Jugar(Tamagotchi mascota)
     {}
 
     private void Tiempo()
     {
-        DateTime ahora = DateTime.Now - inicio;
-        minutosAburrida = (ahora.Minute) + (ahora.Hour*59) + (ahora.Day*1416);
+        DateTime ahora = DateTime.Now;
+        System.TimeSpan resta = inicio - ahora;
+        minutosAburrida = (resta.Minutes) + (resta.Hours*60) + (resta.Days*1416);
     }
 }

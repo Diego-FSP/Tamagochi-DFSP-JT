@@ -3,7 +3,7 @@ using State;
 class Tamagotchi
 {
     public byte felicidad=0;
-    public State Estado;
+    public State Estado= new Aburrido();
 
     public void Comer()
     {
